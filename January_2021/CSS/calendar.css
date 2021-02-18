@@ -1,0 +1,29 @@
+.calendar {
+
+    width: 500px;
+    height: 300px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+.day {
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+    display: inline-block;
+    border: black solid 1px;
+
+    margin: 5px;
+
+}
+
+.today {
+
+background: grey;
+
+}

@@ -1,0 +1,54 @@
+.scrolling {
+
+    width: 300px;
+    height: 200px;
+    border: solid black 1px;
+
+
+    overflow: auto;
+
+
+
+
+}
+
+
+.newDiv {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 100px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 15px rgba(165, 165, 165, 20);
+
+}
+
+.escape {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top:-165px;
+    left: 180px;
+    color: gray;
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.escape:hover {
+
+color: red;
+cursor: pointer;
+
+}

@@ -1,0 +1,91 @@
+.frame {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: green 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+
+.headOfFrame {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-bottom: rgb(214, 214, 214) 1px solid;
+
+
+}
+
+
+.head {
+
+    display: block;
+
+    line-height: 30px;
+
+    vertical-align: middle;
+    border-radius: 5px 5px 0 0;
+    background: rgb(214, 214, 214);
+    padding: 0 13px;
+    cursor: pointer;
+
+
+}
+
+
+
+
+.active {
+
+    background: green;
+
+}
+
+.newframe {
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 20px;
+
+
+
+}
+
+
+.newhead {
+
+
+    display: block;
+
+    line-height: 40px;
+
+
+
+    border-radius: 5px;
+    background: rgb(214, 214, 214);
+    margin: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.answer {
+
+    margin: 20px;
+    transition: height .5s;
+overflow: hidden;
+}
+

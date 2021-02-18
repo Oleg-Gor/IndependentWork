@@ -1,0 +1,87 @@
+#calculate {
+
+    width: 278px;
+    border: 1px solid black; text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+#calculate input[type='button']{
+
+ width: 60px;
+ height: 40px;
+ margin: 3px;
+ padding: 2px auto;
+ font-size: 20px;
+ border: 2px solid gray;
+
+}
+
+#calculate input[type='button']:hover{
+    border: 2px solid black;
+    font-size: 21px;
+
+}
+
+input[type='text']{
+
+text-align:right;
+width: 190px;
+height: 30px;
+margin: 3px;
+padding: 3px;
+font-size: 20px;
+
+}
+
+#gameX{
+
+width: 300px;
+height: 300px;
+border-collapse: collapse;
+text-align: center;
+
+}
+
+
+
+td { 
+   
+    width: 25%;
+    height: 25%;
+
+    border: 2px solid black;  
+
+   }
+
+   td:hover{
+
+background-color: rgba(204, 204, 204, 0.411);
+
+   }
+
+
+   #survay {
+
+    width: 200px;
+    font-size: large;
+   
+   }
+
+   .survay {
+
+    font-size: larger;
+
+
+   }
+
+   #carousel{
+
+    width: 520px;
+    height: 390px;
+    border-collapse: collapse;
+    text-align: center;
+    
+    }

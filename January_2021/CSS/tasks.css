@@ -1,0 +1,50 @@
+body {
+
+    padding: 20px;
+    
+    }
+
+    div[class|="task"] input[type='text']{
+
+width: 200px;
+
+
+    }
+
+[class|="task"] > input {
+
+display: block;
+
+}
+h2 {
+display: block;
+}
+
+h2::before {
+
+content: '';
+border: rgb(204, 204, 204) 1px solid;
+display: block;
+width: 200px;
+
+
+}
+
+
+
+
+div[class|="task"] {
+
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+}
+
+
+.showTd {
+
+background: red;
+
+
+}

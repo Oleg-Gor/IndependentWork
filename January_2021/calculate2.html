@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/calculate2.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class='survay2'>
+        <ul>
+            <li>JavaScript это тоже самое что и Java?</li>
+            <ul>
+                <li> <input type="checkbox" name="1" id="1" data-correct="1"><label for="1">Нет.</label></li>
+                <li><input type="checkbox" name="1" id="2" data-correct="2"><label for="2">Да.</label></li>
+                <li> <input type="checkbox" name="1" id="3" data-correct="3"><label for="3">Когда как</label></li>
+            </ul>
+        </ul>
+
+        <ul>
+            <li>Сколько параментров можно передавать в фукнцию?</li>
+            <ul>
+                <li><input type="checkbox" name="2" id="4" data-correct="1"><label for="4">Только столько, сколько
+                        указано при ее созданиию</label></li>
+                <li><input type="checkbox" name="2" id="5" data-correct="2"><label for="5">Минимум 1.</label></li>
+                <li><input type="checkbox" name="2" id="6" data-correct="3"><label for="6">Сколько угодно.</label></li>
+            </ul>
+        </ul>
+        <ul>
+            <li>Что такое: "use strict"?</li>
+            <ul>
+                <li><input type="checkbox" name="3" id="7" data-correct="1"><label for="7">Просто строка</label></li>
+                <li><input type="checkbox" name="3" id="8" data-correct="2"><label for="8">Функция</label></li>
+                <li><input type="checkbox" name="3" id="9" data-correct="3"><label for="9">Строгий режим</label></li>
+            </ul>
+        </ul>
+
+        <input type="button" class="check" value='next question' id='nextQuestion'>
+
+        <input type="button" class="check" value='result' id='result'>
+
+
+
+        <div id='task'>
+            <ol>
+                <li> Какой язык вы предпочитаете?</li>
+                <ol>
+                    <li> <input type="radio" name="2" id="11"><label for="11">JavaScript</label></li>
+                    <li> <input type="radio" name="2" id="21"> <label for="21"> HTML/CSS</label></li>
+                    <li> <input type="radio" name="2" id="31"> <label for="31"> PHP</label></li>
+                    <li><input type="radio" name="2" id="41"> <label for="41"> C++</label></li>
+                    <li> <input type="radio" name="2" id="51"> <label for="51"> Русский</label></li>
+                    <li> Свой ответ: <input name="2" type="text"></li>
+                </ol>
+                <li> Какой редактор кода используете?</li>
+                <ol>
+                    <li> <input type="radio" name="3" id="61"> <label for="61"> Notepad++</label></li>
+                    <li><input type="radio" name="3" id="71"> <label for="71"> Блокнот</label></li>
+                    <li> <input type="radio" name="3" id="81"> <label for="81"> Sublime Text</label></li>
+                    <li> Свой ответ: <input name="3" type="text"></li>
+
+
+                </ol>
+                <li> Какой у вас опыт?</li>
+                <ol>
+                    <li> <input type="radio" name="4" id="91"> <label for="91"> 6 месяцев</label></li>
+                    <li> <input type="radio" name="4" id="101"> <label for="101"> Около года</label></li>
+                    <li> <input type="radio" name="4" id="111"> <label for="111"> Пара лет</label></li>
+                    <li> <input type="radio" name="4" id="121"> <label for="121"> Пол жизни</label></li>
+
+                    <li>Свой ответ: <input name="4" type="text"></li>
+
+
+                </ol>
+
+
+            </ol>
+
+<input type="button" value="look" id="buttonTask">
+<input type="button" value="next person" id="buttonTaskAgain">
+
+        </div>
+
+
+
+
+        <script src="JS/calculate2.js"></script>
+
+</body>
+
+</html>
