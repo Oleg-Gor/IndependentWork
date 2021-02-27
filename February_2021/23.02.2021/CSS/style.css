@@ -1,0 +1,127 @@
+.textarea span {
+
+    margin: auto 40px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.textarea div {
+
+
+    text-align: left;
+
+}
+
+
+
+#task-3 input {
+
+    display: inline-block;
+
+
+}
+
+
+.notebook li {
+
+    cursor: pointer;
+
+
+}
+
+
+.headerOrganizer div {
+
+    display: inline-block;
+    margin: 5px 20px;
+
+
+}
+
+.month span {
+
+    margin: 0 10px;
+
+}
+
+.month-block .prewMonth,
+.month-block .nextMonth {
+
+    cursor: pointer;
+
+
+}
+
+.organizer table {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 250px;
+
+
+}
+
+.organizer td {
+
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+  text-align: center;
+
+
+
+}
+
+
+.organizer .headerOrganizer {
+
+    width: 248px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+
+
+}
+
+.month {
+
+    display: inline-block;
+    margin: 0 10px;
+    width: 70px;
+ text-align: center;
+
+}
+
+.today {
+
+background: rgb(206, 206, 206);
+
+}
+
+
+
+.organizer .writer {
+
+position:relative;
+top: -245px;
+right: -267px;
+
+}
+
+.calendar {
+
+    cursor: pointer;
+
+
+}
+
+.notesDay {
+
+    transition: 2s;
+    background: rgb(235, 235, 235);
+
+
+
+}

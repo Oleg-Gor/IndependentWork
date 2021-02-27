@@ -1,0 +1,19 @@
+input[type='checkbox']{
+
+display: inline-block;
+
+
+}
+
+div span {
+
+margin-left: 15px;
+
+
+}
+
+.history-prev, .history-next {
+
+cursor: pointer;
+
+}

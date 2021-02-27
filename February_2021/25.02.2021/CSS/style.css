@@ -1,0 +1,387 @@
+body {
+
+    overflow-x: hidden;
+
+}
+
+div {
+
+    width: 100px;
+    height: 50px;
+    border: red solid 1px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: red;
+
+
+}
+
+div.animation_1 {
+
+
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+
+
+}
+
+div.animation_1:hover {
+
+
+    background: red;
+}
+
+div.animation_2 {
+    color: red;
+    transition: all 2s;
+
+
+}
+
+div.animation_2:hover {
+
+    background: red;
+    color: white;
+
+
+}
+
+div.animation_3 {
+
+    transition: 1s all;
+
+
+}
+
+div.animation_3:hover {
+
+    width: 300px;
+
+
+}
+
+div.animation_4 {
+
+    transition-property: font-size, width, height;
+    transition-duration: 1s;
+
+}
+
+div.animation_4:hover {
+
+    font-size: 50px;
+    width: 150px;
+    height: 100px;
+
+}
+
+div.animation_5 {
+
+    transition: all 2s;
+
+
+}
+
+div.animation_5:hover {
+
+    width: 300px;
+    margin-left: 100px;
+
+}
+
+div.animation_6 {
+
+    text-indent: 5000px;
+    transition: 0.5s all;
+
+
+}
+
+div.animation_6:hover {
+
+    text-indent: 10px;
+
+
+}
+
+
+div.animation_7 {
+
+    transition: 1s all 0.5s;
+
+
+}
+
+div.animation_7:hover {
+
+    width: 200px;
+
+}
+
+div.animation_8 {
+    border: white;
+
+
+}
+
+div.animation_8 input {
+
+    height: 30px;
+    width: 200px;
+    transition: all 1s;
+
+
+}
+
+div.animation_8 input:focus {
+
+    width: 300px;
+    box-shadow: 0 1px 5px black;
+}
+
+div.animation_9 {
+
+    height: inherit;
+    border: green solid 1px;
+    width: 300px;
+
+
+
+}
+
+div.animation_9>div {
+
+    transition: 1s all;
+
+}
+
+div.animation_9:hover>div {
+
+    width: 250px;
+
+
+}
+
+
+div.animation_10 {
+
+    height: inherit;
+    border: white;
+    width: 300px;
+
+
+}
+
+div.animation_10>div {
+
+    transition: all 1s;
+
+}
+
+div.animation_10>div:hover+div {
+
+    width: 300px;
+
+
+}
+
+
+div.animation_11 {
+
+    height: inherit;
+    border: white;
+    width: 300px;
+
+
+}
+
+div.animation_11>div {
+
+    transition: all 1s;
+
+}
+
+div.animation_11>div:hover~div {
+
+    width: 300px;
+
+}
+
+
+div.animation_12 {
+
+    height: inherit;
+    border: white;
+    width: 300px;
+
+
+}
+
+div.animation_12>div {
+
+    transition: all 1s;
+
+}
+
+div.animation_12>div:hover+div+div {
+
+    width: 300px;
+
+
+}
+
+
+div.animation_13 {
+
+    height: inherit;
+    border: white;
+
+
+}
+
+div.animation_13>div {
+
+    transition: all 1s;
+    margin-left: 50px;
+    width: 250px;
+
+
+}
+
+
+div.animation_13>div+div {
+
+    margin-left: -300px;
+
+
+}
+
+div.animation_13>div:hover+div {
+
+    margin-left: 50px;
+    background-color: red;
+    color: white;
+
+
+}
+
+div.animation_14 {
+
+    height: inherit;
+    border: white;
+
+
+}
+
+div.animation_14>div {
+
+    transition: 1s all steps(5, end);
+
+}
+
+div.animation_14>div+div {
+
+    transition: 1s all steps(5, start);
+
+}
+
+
+div.animation_14:hover>div {
+
+    width: 300px;
+
+}
+
+div.animation_15 {
+
+    transition: 1s all cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+
+}
+
+div.animation_15:hover {
+
+    width: 300px;
+
+
+}
+
+div.animation_16 {
+
+    width: 300px;
+    padding: 0px;
+
+
+}
+
+
+div.animation_16>div {
+
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: red;
+    transition: 2s width;
+
+}
+
+
+div.animation_16:hover>div {
+
+    width: 300px;
+
+
+
+}
+
+div.animation_17 {
+
+    width: 300px;
+    padding: 0px;
+
+
+}
+
+
+div.animation_17>div {
+
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: red;
+    transition: 2s width steps(5, start);
+
+}
+
+
+div.animation_17:hover>div {
+
+    width: 300px;
+
+}
+div.animation_18 {
+
+
+margin-top: 150px;
+margin-left: 150px;
+margin-bottom: 150px;
+box-shadow: -100px 100px black, 100px -100px black;
+
+transition: all 1s;
+
+}
+
+div.animation_18:hover {
+
+
+    box-shadow: 100px 100px black, 100px 100px black;
+
+}

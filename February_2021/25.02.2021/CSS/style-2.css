@@ -1,0 +1,529 @@
+div {
+
+    width: 300px;
+    height: 100px;
+
+}
+
+div>div {
+
+    width: 20px;
+    height: 20px;
+    border: red solid 1px;
+
+
+}
+
+
+@keyframes animation_1 {
+
+    from {
+        margin-left: 5px
+    }
+
+    to {
+        margin-left: 150px;
+    }
+
+
+}
+
+div.animation_1>div {
+
+    animation-name: animation_1;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+
+
+}
+
+@keyframes animation_2 {
+
+    from {
+        margin-left: 5px
+    }
+
+    to {
+        margin-left: 250px;
+    }
+
+
+}
+
+div.animation_2>div {
+
+    animation-name: animation_2;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+
+}
+
+div.animation_3 {
+
+    width: 250px;
+    height: 250px;
+    border: red solid 1px;
+    margin-bottom: 15px;
+
+}
+
+div.animation_3>div {
+
+    border: none;
+
+}
+
+@keyframes animation_3 {
+
+    from {
+        background: white
+    }
+
+    to {
+        background: red
+    }
+
+
+}
+
+div.animation_3 {
+
+    animation-name: animation_3;
+    animation-duration: 1s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+
+}
+
+div.animation_4 {
+
+    width: 250px;
+    height: 250px;
+    border: red solid 1px;
+
+
+}
+
+
+@keyframes animation_4 {
+
+    0% {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    25% {
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+
+    50% {
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    75% {
+        margin-left: 15px;
+        margin-top: 150px;
+    }
+
+    100% {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+
+}
+
+div.animation_4>div {
+
+    animation-name: animation_4;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-fill-mode: both;
+
+    margin: 15px;
+
+
+}
+
+div.animation_5 {
+
+    height: 250px;
+    width: 250px;
+    margin-top: 15px;
+    border: seagreen solid 1px;
+
+}
+
+@keyframes animation_5 {
+
+    0% {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    25% {
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+
+    50% {
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    75% {
+        margin-left: 15px;
+        margin-top: 150px;
+    }
+
+    100% {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+}
+
+@keyframes animation_5_1 {
+
+    from {
+        background: white;
+    }
+
+    to {
+        background: red;
+    }
+
+}
+
+div.animation_5>div {
+
+    animation-name: animation_5, animation_5_1;
+    animation-duration: 3s, 1s;
+    margin: 15px;
+    animation-direction: normal, alternate-reverse;
+    animation-iteration-count: 3, 9;
+
+
+}
+
+
+div.animation_6 {
+
+    margin-top: 20px;
+
+
+}
+
+@keyframes animation_6 {
+
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 150px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+
+}
+
+div.animation_6>div {
+
+    animation-name: animation_6;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+
+
+}
+
+
+div.animation_7 {
+
+    margin-top: 20px;
+
+
+}
+
+@keyframes animation_7 {
+
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 150px;
+    }
+
+}
+
+div.animation_7>div {
+
+    animation-name: animation_7;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+
+}
+
+div.animation_8 {
+
+    width: 150px;
+    height: 20px;
+    border: red 1px solid;
+    margin-bottom: 10px;
+
+
+}
+
+div.animation_8>div {
+
+    margin: 0px;
+    border: none;
+
+
+}
+
+@keyframes animation_8 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 150px;
+    }
+
+
+}
+
+div.animation_8>div {
+
+    animation: animation_8 3s;
+    background: red;
+    animation-fill-mode: forwards;
+
+
+}
+
+div.animation_9 {
+
+    width: 150px;
+    height: 20px;
+    border: red 1px solid;
+    margin-bottom: 10px;
+
+
+}
+
+div.animation_9>div {
+
+    margin: 0px;
+    border: none;
+    background: red;
+
+
+}
+
+@keyframes animation_9 {
+
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 150px;
+    }
+
+}
+
+div.animation_9>div {
+
+    animation: animation_9 5s infinite;
+
+
+}
+
+
+div.animation_10 {
+
+    border: none;
+
+}
+
+div.animation_10>div {
+
+    margin: 0px;
+    border: 1px solid red;
+
+
+
+}
+
+@keyframes animation_10 {
+
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 150px;
+    }
+
+}
+
+div.animation_10>div {
+
+    animation-name: animation_10;
+    animation-duration: 3s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+div.animation_10>div:hover {
+
+    /*     animation-name: animation_10;
+    animation-duration: 5s; */
+    animation-play-state: running;
+
+}
+
+div.animation_11>div {
+
+    width: 150px;
+
+    margin-bottom: 20px;
+
+
+}
+
+div.animation_11>div+div {
+
+    border: blue 1px solid;
+
+    width: 20px;
+
+}
+
+@keyframes animation_11 {
+
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 200px;
+    }
+
+
+}
+
+div.animation_11>div+div {
+    animation: animation_11 1s alternate infinite;
+    animation-play-state: paused;
+
+
+
+}
+
+div.animation_11>div:hover+div {
+
+
+    animation-play-state: running;
+
+}
+
+
+div.animation_12 {
+
+    width: 150px;
+    height: 150px;
+    border: red 1px solid;
+
+
+}
+
+div.animation_12>div {
+
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background: red;
+
+}
+
+@keyframes animation_12 {
+
+    0% {
+        margin-left: 4px;
+        margin-top: 4px;
+        animation-timing-function: ease-in;
+    }
+
+    40% {
+        margin-left: 20px;
+        margin-top: 138px;
+        animation-timing-function: ease-out
+    }
+
+    60% {
+        margin-left: 25px;
+        margin-top: 110px;
+        animation-timing-function: ease-in;
+    }
+
+    70% {
+        margin-left: 30px;
+        margin-top: 138px;
+        animation-timing-function: ease-our
+    }
+
+    78% {
+        margin-left: 35px;
+        margin-top: 130px;
+        animation-timing-function: ease-in;
+    }
+
+    85% {
+        margin-left: 40px;
+        margin-top: 138px;
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        margin-left: 45px;
+        margin-top: 135px;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        margin-left: 50px;
+        margin-top: 138px;
+        animation-timing-function: ease-out
+    }
+
+
+}
+
+div.animation_12>div {
+
+    animation: animation_12 7s;
+    animation-fill-mode: forwards;
+
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lokal storage</h1>
+
+    <div class='textarea' id='textarea-1'>
+        <div><span class='prev'>
+                < </span><span class='next'> > </span> </div>
+        <textarea name="" cols="30" rows="10"></textarea>
+    </div>
+
+    <div id='task-3'>
+
+        <h2>Save forms</h2>
+
+        <br> <input type="text">
+        <br><br>
+        <br> <input type="checkbox" name="one" id="first"><label for="first">first</label>
+        <br> <input type="checkbox" name="one" id="second"><label for="second">second</label>
+        <br><br>
+        <br><input type="radio" name="two" id="1"><label for="1">enter me</label>
+        <br><input type="radio" name="two" id="2"><label for="2">enter me!</label>
+        <br><br>
+        <select>
+            <option value="1">1</option>
+            <option value="2">3</option>
+        </select>
+        <br><br>
+        <br> <textarea id="textarea-second" cols="30" rows="10"></textarea>
+
+    </div>
+
+
+
+    <div class='notebook'>
+
+
+        <h2>Notebook</h2>
+
+        <div class='writer' style='display: inline-block;'>
+            <textarea cols="30" rows="10" placeholder="write your note and click the button"></textarea>
+
+            <br>
+
+            <button class='addNotes' style="display: block;">add notes</button>
+            <button class='changeNotes' style="display: none;">change note</button>
+            <button class='dellNotes' style="display: none;">del note </button>
+        </div>
+
+        <div class='notes' style='display: inline-block;'>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <h2>Organizer</h2>
+
+    <div class='organizer'>
+
+        <div>
+            <div class='headerOrganizer'>
+                <div> <span class="year">year </span></div>
+
+                <div class="month-block"><span class='prewMonth'>
+                        < </span> <span class="month"> month </span> <span class='nextMonth'> > </span>
+                </div>
+            </div>
+
+            <div class='table'>
+                <div>
+                    <table>
+
+
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class='writer' style="display: none;">
+
+            <textarea cols="40" rows="13" placeholder="write your note and click the button"></textarea>
+
+            <br>
+
+            <button class='addNotes' style="display: block;">add notes</button>
+
+        </div>
+
+        
+
+
+    </div>
+
+    <script src="JS/style.js"></script>
+</body>
+
+</html>
