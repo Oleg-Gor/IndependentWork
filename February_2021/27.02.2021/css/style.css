@@ -1,0 +1,265 @@
+ div.animation_1 div,
+ div.animation_2 div,
+ div.animation_3 div {
+
+     width: 50px;
+     height: 50px;
+     border: red solid 1px;
+     margin: 20px;
+
+
+ }
+
+ div.animation_1 div:nth-child(2):hover {
+
+     transform: rotate(45deg);
+
+
+ }
+
+ div.animation_1 div:nth-child(3):hover {
+
+     transform: scale(2);
+
+
+ }
+
+ div.animation_1 div:nth-child(4):hover {
+
+     transform: skew(45deg);
+
+
+ }
+
+ div.animation_1 div:nth-child(5):hover {
+
+     transform: translate(25px)
+ }
+
+ div.animation_1 div:nth-child(6):hover {
+
+     transform: translate(-10px, -10px)
+ }
+
+ div.animation_2 div:nth-child(2):hover {
+
+     transform: rotate(45deg);
+     transform-origin: right bottom;
+
+
+
+ }
+
+ div.animation_2 div:nth-child(3):hover {
+
+     transform: rotate(45deg);
+     transform-origin: -5px 50px;
+
+
+
+ }
+
+ div.animation_2 div:nth-child(4):hover {
+
+     transform: rotate(45deg);
+     transform-origin: center;
+
+
+
+ }
+
+ div.animation_2 div:nth-child(5):hover {
+
+     transform: rotate(-45deg);
+     transform-origin: right top;
+
+
+
+ }
+
+ div.animation_2 div:nth-child(6):hover {
+
+     transform: scale(2);
+     transform-origin: right bottom;
+
+
+
+ }
+
+ div.animation_2 div:nth-child(7):hover {
+
+     transform: skewX(45deg);
+     transform-origin: right bottom;
+
+
+
+ }
+
+
+ div.animation_3 div:hover {
+
+     border-radius: 50%;
+     transform: skewX(-45deg) scale(4, 3);
+
+
+ }
+
+ div.animation_4 {
+
+     width: 150px;
+     height: 150px;
+     margin-bottom: 200px;
+     transform: skewX(5deg);
+
+ }
+
+ div.animation_5 img {
+
+
+     transition: all 1s;
+
+
+ }
+
+
+ div.animation_5 img:hover {
+
+     transform: scale(2);
+
+
+
+ }
+
+ div.animation_9 a {
+     text-decoration: none;
+     display: inline-block;
+     border: 1px solid blue;
+     width: 100px;
+     height: 30px;
+     margin-top: 5px;
+     text-align: center;
+     padding-top: 7px;
+
+ }
+
+ div.animation_9 a:nth-child(3) {
+     transform: rotate(10deg);
+
+ }
+
+ div.animation_9 a:hover {
+     transform: rotate(10deg);
+
+ }
+
+
+ div.animation_10 a {
+     text-decoration: none;
+     display: inline-block;
+     border: 1px solid blue;
+     width: 100px;
+     height: 30px;
+     margin-top: 5px;
+     text-align: center;
+     padding-top: 7px;
+     transition: all 1s;
+
+ }
+
+ div.animation_10 a:hover {
+
+     transform: rotate(360deg);
+
+ }
+
+
+
+
+
+ div.animation_11 a {
+     text-decoration: none;
+     display: inline-block;
+     border: 1px solid blue;
+     width: 100px;
+     height: 30px;
+     margin-top: 5px;
+     text-align: center;
+     padding-top: 7px;
+     transition: all 1s;
+
+ }
+
+ div.animation_11 div {
+
+     transform: rotate(-10deg);
+     transform-origin: left bottom;
+
+ }
+
+ div.animation_11 div a:hover {
+
+     transform: rotate(360deg);
+
+
+ }
+
+
+ div.animation_12 {
+
+     width: 400px;
+
+
+
+ }
+
+ @keyframes animation_12 {
+
+     from {
+         transform: rotate(0deg); 
+     }
+
+     to {
+         transform: rotate(360deg); 
+     }
+
+
+ }
+
+
+ @keyframes animation_12_1 {
+
+from {background: white; }
+to {background: red;}
+
+ }
+
+ div.animation_12 div:nth-child(2) {
+
+     width: 50px;
+     height: 50px;
+     border: red 1px solid;
+     border-radius: 50%;
+     margin-left: 100px;
+
+ }
+
+
+ div.animation_12>div {
+
+
+     background: white;
+     animation: animation_12 5s infinite linear;
+ }
+
+ div.animation_12 div>div {
+
+    animation: animation_12_1 5s infinite linear alternate;
+
+     width: 10px;
+     height: 10px;
+ 
+     background: red;
+     border-radius: 50%;
+     position: relative;
+     top: -40px
+ }
