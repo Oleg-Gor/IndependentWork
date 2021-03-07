@@ -1,0 +1,48 @@
+
+
+
+#first {
+
+    width: 200px;
+    height: 100px;
+    border: red 1px solid;
+    margin-bottom: 50px;
+display: flex;
+
+
+}
+
+#first div{
+
+border: green 1px solid;
+height: 25px;
+width: 25px;
+margin-left: 10px;
+font-size: 15px;
+
+
+}
+
+#second {
+margin-left: 50px;
+margin-top: 100px;
+width: 150px;
+height: 150px;
+border: black 1px solid;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+
+#second div{
+
+    border: green 1px solid;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    font-size: 15px;
+   
+    
+    }

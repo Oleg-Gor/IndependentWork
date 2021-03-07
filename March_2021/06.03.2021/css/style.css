@@ -1,0 +1,25 @@
+td {
+
+width: 20px;
+height: 20px;
+border: black 1px solid;
+
+}
+
+.gamer1 {
+
+background: blue;
+
+
+}
+
+.gamer2 {
+
+    background: red;
+}
+
+.gamer3 {
+
+background: yellow;
+
+}
