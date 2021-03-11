@@ -205,7 +205,7 @@ Promise.all(arr.map(showImage)).then(
 
     }
 
-);
+).catch(reject => console.log(reject));
 
 
 
